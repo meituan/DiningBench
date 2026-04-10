@@ -1,0 +1,11 @@
+openai==2.6.1
+rouge-chinese==1.0.3
+rouge_score==0.1.2
+tqdm==4.67.1
+vllm==0.8.5.post1
+transformers
+torch
+torchvision
+accelerate
+safetensors
+Pillow
