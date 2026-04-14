@@ -1,5 +1,17 @@
 # DiningBench: A Hierarchical Multi-view Benchmark for Perception and Reasoning in the Dietary Domain
 
+<div align="center">
+  
+  <a href="https://arxiv.org/abs/2604.10425">
+    <img src="https://img.shields.io/badge/ArXiv-DiningBench-brown?logo=arxiv" alt="Paper">
+  </a>
+  
+  <a href="https://huggingface.co/datasets/meituan/DiningBench">
+    <img src="https://img.shields.io/badge/🤗 huggingface-Dataset-blue" alt="dataset">
+  </a>
+  
+</div>
+
 >Recent advancements in Vision-Language Models (VLMs) have revolutionized general visual understanding. However, their application in the food domain remains constrained by benchmarks that rely on coarse-grained categories, single-view imagery, and inaccurate metadata. To bridge this gap, we introduce DiningBench, a hierarchical, multi-view benchmark designed to evaluate VLMs across three levels of cognitive complexity: Fine-Grained Classification, Nutrition Estimation, and Visual Question Answering. Unlike previous datasets, DiningBench comprises 3,021 distinct dishes with an average of 5.27 images per entry, incorporating fine-grained "hard" negatives from identical menus and rigorous, verification-based nutritional data. We conduct an extensive evaluation of 29 state-of-the-art open-source and proprietary models. Our experiments reveal that while current VLMs excel at general reasoning, they struggle significantly with fine-grained visual discrimination and precise nutritional reasoning. Furthermore, we systematically investigate the impact of multi-view inputs and Chain-of-Thought reasoning, identifying five primary failure modes. DiningBench serves as a challenging testbed to drive the next generation of food-centric VLM research.
 
 <div align="center">
